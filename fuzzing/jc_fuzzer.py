@@ -10,6 +10,7 @@ with atheris.instrument_imports():
     import jc
 
     from jc.lib import parsers
+    from jc.parsers import *
     from jc.exceptions import ParseError, LibraryNotInstalled
     from jc.parsers.tomli import TOMLDecodeError
 
