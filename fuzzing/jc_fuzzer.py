@@ -10,10 +10,10 @@ with atheris.instrument_imports():
     import jc
 
     from jc.lib import parsers
-    from jc.parsers import *
-    from jc.exceptions import ParseError, LibraryNotInstalled
+    from jc.exceptionts import ParseError, LibraryNotInstalled
     from jc.parsers.tomli import TOMLDecodeError
 
+jc.parsers
 exception_matches = frozenset({
     'ignore_exceptions', 'Unexpected', 'delimited', 'plist', 'Unterminated', 'Malformed', 'terminating', 'Missing',
     'Invalid'
